@@ -4,8 +4,8 @@
  * returns the string Hello World. when a optional name is provided it returns Hello <name> 
  * eg sayHi("Bob) returns "Hello Bob"
  */
- export function sayHi() {
-
+export function sayHi(name = "") {
+return "Hello World"
 }
 
 /**
@@ -15,7 +15,7 @@
  * 1 Hello World
  * 2 Hello World
  */
- export function sayHiMultipleTimes() {
+ export function sayHiMultipleTimes(count) {
 
 }
 
@@ -26,5 +26,7 @@
  * const message = bye(); // returns bye for now
  */
 export function createByeFunction() {
+return function (){
 
+}
 }

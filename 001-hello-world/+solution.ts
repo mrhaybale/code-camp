@@ -5,8 +5,12 @@
  * eg sayHi("Bob) returns "Hello Bob"
  */
 export function sayHi(name = "") {
-return "Hello World"
-}
+    if(name=== ""){
+        return "Hello World"
+    }
+    return "Hello " + name
+}    
+
 
 /**
  * takes a count argument and prints <count> Hello World  n times
